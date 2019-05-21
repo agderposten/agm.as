@@ -1,0 +1,11 @@
+{
+  "name": "agm-splash",
+  "version": "1.0.0",
+  "description": "agm.as splash",
+  "author": "Thomas Lindstrøm <t@hom.as>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "deploy": "now --static --team=agderposten",
+    "alias": "now alias --team=agderposten"
+  }
+}

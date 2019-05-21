@@ -1,0 +1,9 @@
+{
+  "name": "agm.as",
+  "version": 2,
+  "alias": ["agm.as"],
+  "builds": [
+    {"src": "index.html", "use": "@now/static"},
+    {"src": "static/**/*", "use": "@now/static"}
+  ]
+}
